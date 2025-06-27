@@ -19,39 +19,11 @@ cd secure-auth-app
 flutter pub get
 ```
 
-### 3. Android Configuration
+### 3. Run the App
 
-- **Update Gradle config**  
-  In `android/app/build.gradle`:
-  ```gradle
-  minSdkVersion 23
-  ```
-
-- **Update MainActivity.kt**  
-  In `android/app/src/main/kotlin/.../MainActivity.kt`:
-  ```kotlin
-  import io.flutter.embedding.android.FlutterFragmentActivity
-
-  class MainActivity : FlutterFragmentActivity() { }
-  ```
-
-- **Add permissions**  
-  In `AndroidManifest.xml`:
-  ```xml
-  <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
-  <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
-  ```
-
-### 4. iOS Configuration
-
-- In `ios/Runner/Info.plist`:
-  ```xml
-  <key>NSFaceIDUsageDescription</key>
-  <string>This app uses Face ID to authenticate you securely.</string>
-  ```
-
----
-
+```bash
+flutter run
+```
 ## ✨ Key Features Implemented
 
 - **Secure Authentication via OS**
@@ -125,18 +97,6 @@ lib/
 - **Objective:** Enhance app security using biometric/device lock authentication
 - **Developer:** Karthik Challagundla
 - **Submission:** Includes code, screen recording, and README
-- **Deadline:** 5 Days
-
----
-
-## 📽️ Submission Format
-
-Upload your screen recordings to Google Drive with the following naming convention:
-
-```text
-project-features : https://drive.google.com/your_video_1.mp4
-project-technical : https://drive.google.com/your_video_2.mp4
-```
 
 ---
 
