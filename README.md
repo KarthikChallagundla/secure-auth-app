@@ -96,7 +96,7 @@ lib/
 - **Assignment Title:** Implement Biometric Login Inside the App
 - **Objective:** Enhance app security using biometric/device lock authentication
 - **Developer:** Karthik Challagundla
-- **Submission:** Includes code, screen recording, and README
+- **Submission:** Includes code, and README
 
 ---
 
